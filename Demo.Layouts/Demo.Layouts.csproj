@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="33308.png" />
+    <None Remove="563-5639120_transparent-setting-clipart-settings-button-transparent-background-hd.png" />
+    <None Remove="gear.png" />
+    <None Remove="images.png" />
+    <None Remove="logo.png" />
+    <None Remove="PERSON.png" />
+    <None Remove="pngtree-statistics-linear-icon-web-analysis-business-vector-png-image_41908806.jpg" />
+    <None Remove="settings-11550717364dqilyhc2oz.png" />
+    <None Remove="Untitled.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="33308.png" />
+    <Resource Include="563-5639120_transparent-setting-clipart-settings-button-transparent-background-hd.png" />
+    <Resource Include="gear.png" />
+    <Resource Include="images.png" />
+    <Resource Include="logo.png" />
+    <Resource Include="PERSON.png" />
+    <Resource Include="pngtree-statistics-linear-icon-web-analysis-business-vector-png-image_41908806.jpg" />
+    <Resource Include="settings-11550717364dqilyhc2oz.png" />
+    <Resource Include="Untitled.png" />
+  </ItemGroup>
+
+</Project>
