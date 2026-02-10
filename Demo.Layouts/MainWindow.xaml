@@ -46,7 +46,7 @@
                 </StackPanel>
             </Grid>
         </Grid>
-        
+
         <Grid DockPanel.Dock="Top" Height="40" Background="#FFFFC107">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="40"></ColumnDefinition>
@@ -70,8 +70,9 @@
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
                 <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
-            <Grid>
+            <Grid Margin="3">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="30"></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
@@ -95,22 +96,183 @@
                 <Image Source="/33308.png"></Image>
                 <Label Content="For Your Interview" Grid.Column="1" ></Label>
             </Grid>
-            <Grid Grid.Row="1">
+            <Grid Margin="5,5,5,0" Grid.Row="1" Height="63" VerticalAlignment="Top">
 
-                <StackPanel   Background="#FFFFF7F7" Margin="3">
+                <Border Name="mask" Background="#FFFFFF" CornerRadius="5,5,5,5" Opacity="1"  />
+                <StackPanel   Background="#FFFFFf" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
                     <StackPanel.Effect>
-                        <DropShadowEffect Color="#FFB1A7A7" BlurRadius="15" ShadowDepth="3"/>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
                     </StackPanel.Effect>
-                    <Label Content="117" FontWeight="Bold" FontSize="28" VerticalAlignment="Top"/>
+                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
                     <Label Content="Statistics(2026-2027)"></Label>
+
                 </StackPanel>
             </Grid>
+            <Grid Margin="5,5,5,0" Grid.Row="2" Height="63" VerticalAlignment="Top">
+                <StackPanel   Background="#FFFFFf" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <StackPanel.Effect>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
+                    </StackPanel.Effect>
+                    <Label Content="2" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="New applications"></Label>
 
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5,5,5,0" Grid.Row="3" Height="63" VerticalAlignment="Top">
+                <StackPanel   Background="#FFFFFf" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <StackPanel.Effect>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
+                    </StackPanel.Effect>
+                    <Label Content="17" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Completed Requirements "></Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5,5,5,0" Grid.Row="4" Height="63" VerticalAlignment="Top">
+                <StackPanel   Background="#FFFFFf" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <StackPanel.Effect>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
+                    </StackPanel.Effect>
+                    <Label Content="3" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Statistics(2026-2027)"></Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5,5,5,0" Grid.Row="5  " Height="63" VerticalAlignment="Top">
+                <StackPanel   Background="#FFFFFf" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <StackPanel.Effect>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
+                    </StackPanel.Effect>
+                    <Label Content="0" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="No Show "></Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5,5,5,0" Grid.Row="1" Grid.Column="1" Height="63" VerticalAlignment="Top">
+                <StackPanel   Background="#FFFFFf" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <StackPanel.Effect>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
+                    </StackPanel.Effect>
+                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Statistics(2026-2027)"></Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5,5,5,0" Grid.Row="1" Grid.Column="1" Height="63" VerticalAlignment="Top">
+                <StackPanel   Background="#FFFFFf" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <StackPanel.Effect>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
+                    </StackPanel.Effect>
+                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Statistics(2026-2027)"></Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5,5,5,0" Grid.Row="1" Grid.Column="1" Height="63" VerticalAlignment="Top">
+                <StackPanel   Background="#FFFFFf" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <StackPanel.Effect>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
+                    </StackPanel.Effect>
+                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Statistics(2026-2027)"></Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5,5,5,0" Grid.Row="1" Grid.Column="1" Height="63" VerticalAlignment="Top">
+                <StackPanel   Background="#FFFFFf" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <StackPanel.Effect>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
+                    </StackPanel.Effect>
+                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Statistics(2026-2027)"></Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5,5,5,0" Grid.Row="2" Grid.Column="1" Height="63" VerticalAlignment="Top">
+                <StackPanel   Background="#FFFFFf" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <StackPanel.Effect>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
+                    </StackPanel.Effect>
+                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Statistics(2026-2027)"></Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5,5,5,0" Grid.Row="3" Grid.Column="1" Height="63" VerticalAlignment="Top">
+                <StackPanel   Background="#FFFFFf" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <StackPanel.Effect>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
+                    </StackPanel.Effect>
+                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Statistics(2026-2027)"></Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5,5,5,0" Grid.Row="4" Grid.Column="1" Height="63" VerticalAlignment="Top">
+                <StackPanel   Background="#FFFFFf" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <StackPanel.Effect>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
+                    </StackPanel.Effect>
+                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Statistics(2026-2027)"></Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Margin="5,5,5,0" Grid.Row="1" Grid.Column="2" Height="63" VerticalAlignment="Top">
+                <StackPanel   Background="#FFFF6060" Margin="1"  >
+                    <StackPanel.OpacityMask>
+                        <VisualBrush Visual="{Binding ElementName=mask}"/>
+                    </StackPanel.OpacityMask>
+                    <StackPanel.Effect>
+                        <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
+                    </StackPanel.Effect>
+                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Statistics(2026-2027)"></Label>
+
+                </StackPanel>
+            </Grid>
             <Grid.Background>
                 <ImageBrush ImageSource="/logo.png" Stretch="Uniform" Opacity="0.25"></ImageBrush>
-                    
+
             </Grid.Background>
         </Grid>
-        
+
+
     </DockPanel>
 </Window>
