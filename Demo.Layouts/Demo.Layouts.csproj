@@ -11,24 +11,40 @@
   <ItemGroup>
     <None Remove="33308.png" />
     <None Remove="563-5639120_transparent-setting-clipart-settings-button-transparent-background-hd.png" />
+    <None Remove="chart-file.png" />
     <None Remove="gear.png" />
+    <None Remove="google-docs.png" />
+    <None Remove="grade.png" />
     <None Remove="images.png" />
+    <None Remove="layer.png" />
+    <None Remove="list.png" />
     <None Remove="logo.png" />
+    <None Remove="megaphone.png" />
+    <None Remove="paper.png" />
     <None Remove="PERSON.png" />
     <None Remove="pngtree-statistics-linear-icon-web-analysis-business-vector-png-image_41908806.jpg" />
     <None Remove="settings-11550717364dqilyhc2oz.png" />
+    <None Remove="settings-gears.png" />
     <None Remove="Untitled.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="33308.png" />
     <Resource Include="563-5639120_transparent-setting-clipart-settings-button-transparent-background-hd.png" />
+    <Resource Include="chart-file.png" />
     <Resource Include="gear.png" />
+    <Resource Include="google-docs.png" />
+    <Resource Include="grade.png" />
     <Resource Include="images.png" />
+    <Resource Include="layer.png" />
+    <Resource Include="list.png" />
     <Resource Include="logo.png" />
+    <Resource Include="megaphone.png" />
+    <Resource Include="paper.png" />
     <Resource Include="PERSON.png" />
     <Resource Include="pngtree-statistics-linear-icon-web-analysis-business-vector-png-image_41908806.jpg" />
     <Resource Include="settings-11550717364dqilyhc2oz.png" />
+    <Resource Include="settings-gears.png" />
     <Resource Include="Untitled.png" />
   </ItemGroup>
 

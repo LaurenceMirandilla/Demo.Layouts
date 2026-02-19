@@ -19,7 +19,7 @@
         </Style>
     </Window.Resources>
     <DockPanel>
-        <Grid DockPanel.Dock="Left" Background="RosyBrown">
+        <Grid DockPanel.Dock="Left" Background="#343A40">
             <Grid.RowDefinitions>
                 <RowDefinition Height="40"></RowDefinition>
                 <RowDefinition Height="* "></RowDefinition>
@@ -35,14 +35,78 @@
             <Grid Grid.Row="1">
                 <StackPanel>
                     <Label Content="Registrar Module" Foreground="White"></Label>
-                    <Button Content="Student"></Button>
-                    <Button Content="Section"></Button>
-                    <Button Content="Grades Encoding"></Button>
-                    <Button Content="Subject"></Button>
-                    <Button Content="Reports"></Button>
-                    <Button Content="Maintenance"></Button>
-                    <Button Content="Announcements"></Button>
-                    <Button Content="Survey"></Button>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/paper.png" Margin="5" ></Image>
+                        <Label Content="Admissions" Grid.Column="1" VerticalAlignment="Center" Foreground="#A0A5AD"></Label>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/33308.png" Margin="5"></Image>
+                        <Label Content="Student" Grid.Column="1" VerticalAlignment="Center" Foreground="#A0A5AD"></Label>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image  Margin="5" Source="/layer.png"></Image>
+                        <Label Content="Sections" Grid.Column="1" VerticalAlignment="Center" Foreground="#A0A5AD"></Label>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/grade.png" Margin="5"></Image>
+                        <Label Content="Grades Encoding" Grid.Column="1" VerticalAlignment="Center" Foreground="#A0A5AD"></Label>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/list.png" Margin="5"></Image>
+                        <Label Content="Subject" Grid.Column="1" VerticalAlignment="Center" Foreground="#A0A5AD"></Label>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/google-docs.png" Margin="5"></Image>
+                        <Label Content="Reports" Grid.Column="1" VerticalAlignment="Center" Foreground="#A0A5AD"></Label>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/settings-gears.png" Margin="5"></Image>
+                        <Label Content="Maintenance" Grid.Column="1" VerticalAlignment="Center" Foreground="#A0A5AD"></Label>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/megaphone.png" Margin="5"></Image>
+                        <Label Content="Announcements" Grid.Column="1" VerticalAlignment="Center" Foreground="#A0A5AD"></Label>
+                    </Grid>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/chart-file.png" Margin="5"></Image>
+                        <Label Content="Survey" Grid.Column="1" VerticalAlignment="Center" Foreground="#A0A5AD"></Label>
+                    </Grid>
                 </StackPanel>
             </Grid>
         </Grid>
@@ -54,7 +118,7 @@
                 <ColumnDefinition Width="40"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <TextBlock></TextBlock>
-            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="1" Text="Dusty Cruz"></TextBlock>
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="1" Text="Laurencce Mirandilla"></TextBlock>
             <Image Margin="8" Source="/Untitled.png"></Image>
             <Image Margin="8" Grid.Column="2" Source="/gear.png"></Image>
         </Grid>
@@ -107,7 +171,7 @@
                         <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
                     </StackPanel.Effect>
                     <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
-                    <Label Content="Statistics(2026-2027)"></Label>
+                    <Label Content="Total Applicants"></Label>
 
                 </StackPanel>
             </Grid>
@@ -146,7 +210,7 @@
                         <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
                     </StackPanel.Effect>
                     <Label Content="3" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
-                    <Label Content="Statistics(2026-2027)"></Label>
+                    <Label Content="Applied  Schedule Today"></Label>
 
                 </StackPanel>
             </Grid>
@@ -210,8 +274,8 @@
                     <StackPanel.Effect>
                         <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
                     </StackPanel.Effect>
-                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
-                    <Label Content="Statistics(2026-2027)"></Label>
+                    <Label Content="0" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Preperatory Department"></Label>
 
                 </StackPanel>
             </Grid>
@@ -223,8 +287,8 @@
                     <StackPanel.Effect>
                         <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
                     </StackPanel.Effect>
-                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
-                    <Label Content="Statistics(2026-2027)"></Label>
+                    <Label Content="7" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Basic Education"></Label>
 
                 </StackPanel>
             </Grid>
@@ -236,8 +300,8 @@
                     <StackPanel.Effect>
                         <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
                     </StackPanel.Effect>
-                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
-                    <Label Content="Statistics(2026-2027)"></Label>
+                    <Label Content="1" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Senior High School"></Label>
 
                 </StackPanel>
             </Grid>
@@ -249,21 +313,21 @@
                     <StackPanel.Effect>
                         <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
                     </StackPanel.Effect>
-                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
-                    <Label Content="Statistics(2026-2027)"></Label>
+                    <Label Content="0" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
+                    <Label Content="Higher Education"></Label>
 
                 </StackPanel>
             </Grid>
             <Grid Margin="5,5,5,0" Grid.Row="1" Grid.Column="2" Height="63" VerticalAlignment="Top">
-                <StackPanel   Background="#FFFF6060" Margin="1"  >
+                <StackPanel   Background="#DC3545" Margin="1"  >
                     <StackPanel.OpacityMask>
                         <VisualBrush Visual="{Binding ElementName=mask}"/>
                     </StackPanel.OpacityMask>
                     <StackPanel.Effect>
                         <DropShadowEffect Color="#FFC7C7C7"  BlurRadius="2" ShadowDepth="1"/>
                     </StackPanel.Effect>
-                    <Label Content="117" FontWeight="Bold" FontSize="14" VerticalAlignment="Top"/>
-                    <Label Content="Statistics(2026-2027)"></Label>
+                    <Label Content="0" FontWeight="Bold" FontSize="14" VerticalAlignment="Top" Foreground="White" />
+                    <Label Content="For Your Interview" Foreground="White"></Label>
 
                 </StackPanel>
             </Grid>
